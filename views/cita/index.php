@@ -1,6 +1,10 @@
 <h1 class="nombre-pagina"> Crear nueva cita </h1>
 <p class="descripcion-pagina"> Elige tus servicios a continuación </p>
 
+<?php 
+    include_once __DIR__ . '/../templates/barra.php';
+?>
+
 <div id="app">
     <nav class="tabs">
         <button class="actual" type="button" data-paso="1">Servicios</button>
